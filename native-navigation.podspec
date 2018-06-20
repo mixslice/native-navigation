@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/airbnb/native-navigation#readme"
   s.license      = package['license']
   s.platform     = :ios, "8.0"
+  s.swift_version = '3.2'
 
   s.module_name  = 'NativeNavigation'
 
